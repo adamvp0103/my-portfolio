@@ -1,6 +1,8 @@
+import sharedStyles from '../shared/shared.module.css';
+
 export default function Contact() {
   return (
-    <div>
+    <div className={sharedStyles.page}>
       <h1>Contact</h1>
 
       {/* TODO: Replace lorem with thank you message */}

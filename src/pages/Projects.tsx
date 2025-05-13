@@ -1,6 +1,8 @@
+import sharedStyles from '../shared/shared.module.css';
+
 export default function Projects() {
   return (
-    <div>
+    <div className={sharedStyles.page}>
       <h1>Projects</h1>
 
       {/* TODO: Replace with actual project info */}

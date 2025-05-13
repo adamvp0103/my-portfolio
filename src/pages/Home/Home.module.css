@@ -1,0 +1,41 @@
+.image {
+  width: 8rem;
+  height: 8rem;
+
+  margin-bottom: 1rem;
+
+  border-radius: 50%;
+
+  background-color: #fff; /* Placeholder */
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-bottom: 1rem;
+
+  font-style: italic;
+  color: var(--accent-color);
+}
+
+.button {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  padding-block: 1rem;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--darkened-primary);
+}
+
+.icon {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}

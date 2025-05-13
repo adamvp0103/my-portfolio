@@ -6,7 +6,7 @@
 
   display: flex;
 
-  background-color: #000;
+  background-color: var(--translucent-black);
 }
 
 .link {
@@ -17,5 +17,6 @@
   font-size: 1.5rem;
   text-align: center;
   text-decoration: none;
+  vertical-align: middle;
   color: #fff;
 }

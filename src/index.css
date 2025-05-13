@@ -1,5 +1,18 @@
 * {
+  --translucent-black: rgba(0, 0, 0, 0.9);
+  --primary-color: hsl(270, 100%, 50%);
+  --darkened-primary: hsl(270, 100%, 25%);
+  --accent-color: hsl(270, 100%, 90%);
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: system-ui;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(hsl(255, 100%, 25%), hsl(285, 100%, 25%));
 }
