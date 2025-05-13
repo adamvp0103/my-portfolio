@@ -12,7 +12,7 @@ export default function Home() {
         <span className={styles.subtitle}>Front-End Web Developer</span>
         {/* TODO: Implement download resume */}
         <button className={styles.button}>
-          <FaDownload className={styles.icon} />
+          <FaDownload className={sharedStyles.icon} />
           &nbsp;&nbsp;Download Resume
         </button>
       </div>

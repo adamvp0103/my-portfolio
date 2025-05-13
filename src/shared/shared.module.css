@@ -1,7 +1,7 @@
 .page {
   padding-top: 2rem;
   padding-inline: 1rem;
-  padding-bottom: 6rem;
+  padding-bottom: 25vh;
 }
 
 .header {
@@ -13,6 +13,11 @@
   padding-inline: 1rem;
 
   background-color: var(--translucent-black);
+}
+
+.icon {
+  font-size: 1.5rem;
+  vertical-align: middle;
 }
 
 .section {
