@@ -20,6 +20,7 @@
   background-color: var(--primary-color);
   font-size: 1rem;
   cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
 }
 
 .doubleButton > button:hover {
@@ -29,6 +30,7 @@
 
 .doubleButton > button:hover * {
   color: var(--primary-color);
+  transition: color 0.1s;
 }
 
 .description {

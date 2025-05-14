@@ -17,6 +17,8 @@
   text-align: center;
   text-decoration: none;
   color: #fff;
+
+  transition: background-color 0.1s, color 0.1s;
 }
 
 .link:hover {
@@ -25,4 +27,5 @@
 
 .link:hover * {
   color: #000;
+  transition: color 0.1s;
 }

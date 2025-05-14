@@ -1,0 +1,24 @@
+.message {
+  margin-bottom: 1rem;
+}
+
+.link {
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding-block: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.link:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+.link:hover * {
+  color: var(--primary-color);
+  transition: color 0.1s;
+}
