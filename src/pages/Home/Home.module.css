@@ -35,3 +35,7 @@
   background-color: #fff;
   color: var(--primary-color);
 }
+
+.button:hover * {
+  color: var(--primary-color);
+}

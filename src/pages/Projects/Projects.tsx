@@ -1,6 +1,7 @@
-import { FaCode, FaPlay } from 'react-icons/fa';
 import sharedStyles from '../../shared/shared.module.css';
 import styles from './Projects.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode, faPlay } from '@fortawesome/free-solid-svg-icons';
 
 export default function Projects() {
   return (
@@ -16,11 +17,11 @@ export default function Projects() {
           <h2 className={sharedStyles.heading}>Project 1</h2>
           <div className={styles.doubleButton}>
             <button>
-              <FaPlay className={sharedStyles.icon} />
+              <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
               &nbsp;&nbsp;Demo
             </button>
             <button>
-              <FaCode className={sharedStyles.icon} />
+              <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
               &nbsp;&nbsp;Code
             </button>
           </div>
@@ -56,11 +57,11 @@ export default function Projects() {
           <h2 className={sharedStyles.heading}>Project 2</h2>
           <div className={styles.doubleButton}>
             <button>
-              <FaPlay className={sharedStyles.icon} />
+              <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
               &nbsp;&nbsp;Demo
             </button>
             <button>
-              <FaCode className={sharedStyles.icon} />
+              <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
               &nbsp;&nbsp;Code
             </button>
           </div>
@@ -96,11 +97,11 @@ export default function Projects() {
           <h2 className={sharedStyles.heading}>Project 3</h2>
           <div className={styles.doubleButton}>
             <button>
-              <FaPlay className={sharedStyles.icon} />
+              <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
               &nbsp;&nbsp;Demo
             </button>
             <button>
-              <FaCode className={sharedStyles.icon} />
+              <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
               &nbsp;&nbsp;Code
             </button>
           </div>

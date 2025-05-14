@@ -1,6 +1,7 @@
-import { FaDownload } from 'react-icons/fa';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import sharedStyles from '../../shared/shared.module.css';
 import styles from './Home.module.css';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <span className={styles.subtitle}>Front-End Web Developer</span>
         {/* TODO: Implement download resume */}
         <button className={styles.button}>
-          <FaDownload className={sharedStyles.icon} />
+          <FontAwesomeIcon className={sharedStyles.icon} icon={faDownload} />
           &nbsp;&nbsp;Download Resume
         </button>
       </div>

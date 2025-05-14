@@ -5,18 +5,24 @@
   left: 0;
 
   display: flex;
-
-  background-color: var(--translucent-black);
 }
 
 .link {
   flex-grow: 1;
 
-  padding-block: 0.75rem;
+  padding-block: 1rem;
 
-  font-size: 1.5rem;
+  background-color: var(--translucent-black);
+
   text-align: center;
   text-decoration: none;
-  vertical-align: middle;
   color: #fff;
+}
+
+.link:hover {
+  background-color: #fff;
+}
+
+.link:hover * {
+  color: #000;
 }
