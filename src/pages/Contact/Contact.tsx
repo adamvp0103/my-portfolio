@@ -12,27 +12,37 @@ export default function Contact() {
       </div>
 
       <div className={sharedStyles.page}>
-        {/* TODO: Replace lorem with thank you message */}
-        <p className={styles.message}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-          saepe!
-        </p>
-        {/* TODO: Implement links */}
-        <a className={styles.link} href="#">
-          <FontAwesomeIcon className={sharedStyles.icon} icon={faLinkedin} />
-          &nbsp;&nbsp;LinkedIn
-        </a>
-        <a className={styles.link} href="#">
-          <FontAwesomeIcon className={sharedStyles.icon} icon={faGithub} />
-          &nbsp;&nbsp;GitHub
-        </a>
-        <a
-          className={styles.link}
-          href="mailto:adamvp0103@gmail.com?subject=Employment%20Opportunity"
-        >
-          <FontAwesomeIcon className={sharedStyles.icon} icon={faEnvelope} />
-          &nbsp;&nbsp;Email
-        </a>
+        <div className={styles.messageAndLinks}>
+          {/* TODO: Replace lorem with thank you message */}
+          <p className={styles.message}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            saepe!
+          </p>
+          <div className={styles.links}>
+            {/* TODO: Implement links */}
+            <a className={styles.link} href="#">
+              <FontAwesomeIcon
+                className={sharedStyles.icon}
+                icon={faLinkedin}
+              />
+              &nbsp;&nbsp;LinkedIn
+            </a>
+            <a className={styles.link} href="#">
+              <FontAwesomeIcon className={sharedStyles.icon} icon={faGithub} />
+              &nbsp;&nbsp;GitHub
+            </a>
+            <a
+              className={styles.link}
+              href="mailto:adamvp0103@gmail.com?subject=Employment%20Opportunity"
+            >
+              <FontAwesomeIcon
+                className={sharedStyles.icon}
+                icon={faEnvelope}
+              />
+              &nbsp;&nbsp;Email
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

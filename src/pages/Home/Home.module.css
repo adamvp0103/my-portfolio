@@ -1,3 +1,19 @@
+.profileAndButton {
+  width: 100%;
+}
+
+.imageAndText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameAndSubtitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .image {
   width: 8rem;
   height: 8rem;
@@ -27,6 +43,7 @@
   border: none;
   border-radius: 1rem;
   padding-block: 1rem;
+  padding-inline: 2rem;
   background-color: var(--primary-color);
   font-size: 1rem;
   cursor: pointer;
@@ -41,4 +58,51 @@
 .button:hover * {
   color: var(--primary-color);
   transition: color 0.1s;
+}
+
+@media (min-width: 641px) {
+  .list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5rem;
+  }
+}
+
+@media (min-width: 1008px) {
+  .profileAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .imageAndText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .image {
+    margin-bottom: 0;
+  }
+
+  .nameAndSubtitle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subtitle {
+    margin-bottom: 0;
+  }
+
+  .button {
+    width: auto;
+  }
+
+  .list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+  }
 }

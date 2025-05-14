@@ -22,3 +22,18 @@
   color: var(--primary-color);
   transition: color 0.1s;
 }
+
+@media (min-width: 1008px) {
+  .messageAndLinks {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .message {
+    flex: 1;
+  }
+
+  .links {
+    flex: 2;
+  }
+}

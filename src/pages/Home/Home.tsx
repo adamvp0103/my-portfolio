@@ -8,14 +8,20 @@ export default function Home() {
     <div>
       <div className={sharedStyles.header}>
         {/* TODO: Replace this div with an actual profile image */}
-        <div className={styles.image}></div>
-        <span className={styles.name}>Adam Parks</span>
-        <span className={styles.subtitle}>Front-End Web Developer</span>
-        {/* TODO: Implement download resume */}
-        <button className={styles.button}>
-          <FontAwesomeIcon className={sharedStyles.icon} icon={faDownload} />
-          &nbsp;&nbsp;Download Resume
-        </button>
+        <div className={styles.profileAndButton}>
+          <div className={styles.imageAndText}>
+            <div className={styles.image}></div>
+            <div className={styles.nameAndSubtitle}>
+              <span className={styles.name}>Adam Parks</span>
+              <span className={styles.subtitle}>Front-End Web Developer</span>
+            </div>
+          </div>
+          {/* TODO: Implement download resume */}
+          <button className={styles.button}>
+            <FontAwesomeIcon className={sharedStyles.icon} icon={faDownload} />
+            &nbsp;&nbsp;Download Resume
+          </button>
+        </div>
       </div>
       <div className={sharedStyles.page}>
         <section className={sharedStyles.section}>
@@ -59,18 +65,20 @@ export default function Home() {
         <section className={sharedStyles.section}>
           <h2 className={sharedStyles.heading}>Skills</h2>
           {/* TODO: Replace lorem with actual content */}
-          <ul className={sharedStyles.list}>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-          </ul>
+          <div className={styles.list}>
+            <ul className={sharedStyles.list}>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
         </section>
       </div>
     </div>

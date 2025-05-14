@@ -26,28 +26,30 @@ export default function Projects() {
               </button>
             </div>
           </div>
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quis
-            error laboriosam ratione corrupti perferendis nam explicabo deserunt
-            non architecto perspiciatis vero sed quas veritatis ullam,
-            praesentium eligendi magni neque!
-          </p>
-          <div className={styles.doubleList}>
-            <div>
-              <h3>Features</h3>
-              <ul className={sharedStyles.list}>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-            </div>
-            <div>
-              <h3>Tech</h3>
-              <ul className={sharedStyles.list}>
-                <li>Tech 1</li>
-                <li>Tech 2</li>
-                <li>Tech 3</li>
-              </ul>
+          <div className={styles.descriptionAndLists}>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              quis error laboriosam ratione corrupti perferendis nam explicabo
+              deserunt non architecto perspiciatis vero sed quas veritatis
+              ullam, praesentium eligendi magni neque!
+            </p>
+            <div className={styles.doubleList}>
+              <div>
+                <h3>Features</h3>
+                <ul className={sharedStyles.list}>
+                  <li>Feature 1</li>
+                  <li>Feature 2</li>
+                  <li>Feature 3</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Tech</h3>
+                <ul className={sharedStyles.list}>
+                  <li>Tech 1</li>
+                  <li>Tech 2</li>
+                  <li>Tech 3</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -68,28 +70,30 @@ export default function Projects() {
               </button>
             </div>
           </div>
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quis
-            error laboriosam ratione corrupti perferendis nam explicabo deserunt
-            non architecto perspiciatis vero sed quas veritatis ullam,
-            praesentium eligendi magni neque!
-          </p>
-          <div className={styles.doubleList}>
-            <div>
-              <h3>Features</h3>
-              <ul className={sharedStyles.list}>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-            </div>
-            <div>
-              <h3>Tech</h3>
-              <ul className={sharedStyles.list}>
-                <li>Tech 1</li>
-                <li>Tech 2</li>
-                <li>Tech 3</li>
-              </ul>
+          <div className={styles.descriptionAndLists}>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              quis error laboriosam ratione corrupti perferendis nam explicabo
+              deserunt non architecto perspiciatis vero sed quas veritatis
+              ullam, praesentium eligendi magni neque!
+            </p>
+            <div className={styles.doubleList}>
+              <div>
+                <h3>Features</h3>
+                <ul className={sharedStyles.list}>
+                  <li>Feature 1</li>
+                  <li>Feature 2</li>
+                  <li>Feature 3</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Tech</h3>
+                <ul className={sharedStyles.list}>
+                  <li>Tech 1</li>
+                  <li>Tech 2</li>
+                  <li>Tech 3</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -110,28 +114,30 @@ export default function Projects() {
               </button>
             </div>
           </div>
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quis
-            error laboriosam ratione corrupti perferendis nam explicabo deserunt
-            non architecto perspiciatis vero sed quas veritatis ullam,
-            praesentium eligendi magni neque!
-          </p>
-          <div className={styles.doubleList}>
-            <div>
-              <h3>Features</h3>
-              <ul className={sharedStyles.list}>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-            </div>
-            <div>
-              <h3>Tech</h3>
-              <ul className={sharedStyles.list}>
-                <li>Tech 1</li>
-                <li>Tech 2</li>
-                <li>Tech 3</li>
-              </ul>
+          <div className={styles.descriptionAndLists}>
+            <p className={styles.description}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              quis error laboriosam ratione corrupti perferendis nam explicabo
+              deserunt non architecto perspiciatis vero sed quas veritatis
+              ullam, praesentium eligendi magni neque!
+            </p>
+            <div className={styles.doubleList}>
+              <div>
+                <h3>Features</h3>
+                <ul className={sharedStyles.list}>
+                  <li>Feature 1</li>
+                  <li>Feature 2</li>
+                  <li>Feature 3</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Tech</h3>
+                <ul className={sharedStyles.list}>
+                  <li>Tech 1</li>
+                  <li>Tech 2</li>
+                  <li>Tech 3</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>

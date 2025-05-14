@@ -64,3 +64,22 @@
     flex: 1;
   }
 }
+
+@media (min-width: 1008px) {
+  .image {
+    height: 16rem;
+  }
+
+  .descriptionAndLists {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .description {
+    flex: 1;
+  }
+
+  .doubleList {
+    flex: 2;
+  }
+}
