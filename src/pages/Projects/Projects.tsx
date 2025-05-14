@@ -9,7 +9,6 @@ export default function Projects() {
       <div className={sharedStyles.header}>
         <h1>Projects</h1>
       </div>
-
       <div className={sharedStyles.page}>
         <section className={sharedStyles.section}>
           {/* TODO: Replace with actual project info */}

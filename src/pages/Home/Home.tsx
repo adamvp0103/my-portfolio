@@ -17,7 +17,6 @@ export default function Home() {
           &nbsp;&nbsp;Download Resume
         </button>
       </div>
-
       <div className={sharedStyles.page}>
         <section className={sharedStyles.section}>
           <h2 className={sharedStyles.heading}>About Me</h2>

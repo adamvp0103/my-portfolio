@@ -17,7 +17,7 @@
 
 .icon {
   font-size: 1.5rem;
-  vertical-align: -0.4rem; 
+  vertical-align: -0.4rem;
 }
 
 .section {
@@ -47,5 +47,24 @@
 
   .header {
     padding-inline: 4rem;
+  }
+}
+
+@media (min-width: 1008px) {
+  .routesAndNav {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .routesContainer {
+    flex: 4;
+  }
+  
+  .page {
+    padding-inline: 8rem;
+  }
+
+  .header {
+    padding-inline: 8rem;
   }
 }
