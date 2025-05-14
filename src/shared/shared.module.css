@@ -39,3 +39,13 @@
   padding-inline: 1rem;
   background-color: var(--translucent-black);
 }
+
+@media (min-width: 641px) {
+  .page {
+    padding-inline: 4rem;
+  }
+
+  .header {
+    padding-inline: 4rem;
+  }
+}

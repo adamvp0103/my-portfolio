@@ -13,17 +13,19 @@ export default function Projects() {
       <div className={sharedStyles.page}>
         <section className={sharedStyles.section}>
           {/* TODO: Replace with actual project info */}
-          <div className={styles.image}></div>
           <h2 className={sharedStyles.heading}>Project 1</h2>
-          <div className={styles.doubleButton}>
-            <button>
-              <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
-              &nbsp;&nbsp;Demo
-            </button>
-            <button>
-              <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
-              &nbsp;&nbsp;Code
-            </button>
+          <div className={styles.imageAndButtons}>
+            <div className={styles.image}></div>
+            <div className={styles.doubleButton}>
+              <button>
+                <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
+                &nbsp;&nbsp;Demo
+              </button>
+              <button>
+                <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
+                &nbsp;&nbsp;Code
+              </button>
+            </div>
           </div>
           <p className={styles.description}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quis
@@ -53,17 +55,19 @@ export default function Projects() {
 
         <section className={sharedStyles.section}>
           {/* TODO: Replace with actual project info */}
-          <div className={styles.image}></div>
           <h2 className={sharedStyles.heading}>Project 2</h2>
-          <div className={styles.doubleButton}>
-            <button>
-              <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
-              &nbsp;&nbsp;Demo
-            </button>
-            <button>
-              <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
-              &nbsp;&nbsp;Code
-            </button>
+          <div className={styles.imageAndButtons}>
+            <div className={styles.image}></div>
+            <div className={styles.doubleButton}>
+              <button>
+                <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
+                &nbsp;&nbsp;Demo
+              </button>
+              <button>
+                <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
+                &nbsp;&nbsp;Code
+              </button>
+            </div>
           </div>
           <p className={styles.description}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quis
@@ -93,17 +97,19 @@ export default function Projects() {
 
         <section className={sharedStyles.section}>
           {/* TODO: Replace with actual project info */}
-          <div className={styles.image}></div>
           <h2 className={sharedStyles.heading}>Project 3</h2>
-          <div className={styles.doubleButton}>
-            <button>
-              <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
-              &nbsp;&nbsp;Demo
-            </button>
-            <button>
-              <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
-              &nbsp;&nbsp;Code
-            </button>
+          <div className={styles.imageAndButtons}>
+            <div className={styles.image}></div>
+            <div className={styles.doubleButton}>
+              <button>
+                <FontAwesomeIcon className={sharedStyles.icon} icon={faPlay} />
+                &nbsp;&nbsp;Demo
+              </button>
+              <button>
+                <FontAwesomeIcon className={sharedStyles.icon} icon={faCode} />
+                &nbsp;&nbsp;Code
+              </button>
+            </div>
           </div>
           <p className={styles.description}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quis
