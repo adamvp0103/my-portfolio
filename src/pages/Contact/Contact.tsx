@@ -13,28 +13,31 @@ export default function Contact() {
 
       <div className={sharedStyles.page}>
         <div className={styles.messageAndLinks}>
-          {/* TODO: Replace lorem with thank you message */}
           <p className={styles.message}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-            saepe!
+            Thank you for visiting! Please use any of the links you see here to
+            contact me with any questions or opportunities.
           </p>
           <div className={styles.links}>
-            {/* TODO: Implement links */}
-            <a className={styles.link} href="#">
+            <a
+              className={styles.link}
+              href="https://www.linkedin.com/in/adam-parks-6825ab2bb/"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 className={sharedStyles.icon}
                 icon={faLinkedin}
               />
               &nbsp;&nbsp;LinkedIn
             </a>
-            <a className={styles.link} href="#">
+            <a
+              className={styles.link}
+              href="https://github.com/adamvp0103"
+              target="_blank"
+            >
               <FontAwesomeIcon className={sharedStyles.icon} icon={faGithub} />
               &nbsp;&nbsp;GitHub
             </a>
-            <a
-              className={styles.link}
-              href="mailto:adamvp0103@gmail.com?subject=Employment%20Opportunity"
-            >
+            <a className={styles.link} href="mailto:adamvp0103@gmail.com">
               <FontAwesomeIcon
                 className={sharedStyles.icon}
                 icon={faEnvelope}
