@@ -14,7 +14,6 @@ export default function Projects() {
       </div>
       <div className={sharedStyles.page}>
         <section className={sharedStyles.section}>
-          {/* TODO: Replace with actual project info */}
           <h2 className={sharedStyles.heading}>Task Manager</h2>
           <div className={styles.imageAndButtons}>
             <img
@@ -73,7 +72,6 @@ export default function Projects() {
         </section>
 
         <section className={sharedStyles.section}>
-          {/* TODO: Replace with actual project info */}
           <h2 className={sharedStyles.heading}>Transaction Manager</h2>
           <div className={styles.imageAndButtons}>
             <img
@@ -138,7 +136,6 @@ export default function Projects() {
         </section>
 
         <section className={sharedStyles.section}>
-          {/* TODO: Replace with actual project info */}
           <h2 className={sharedStyles.heading}>Quick Weather</h2>
           <div className={styles.imageAndButtons}>
             <img

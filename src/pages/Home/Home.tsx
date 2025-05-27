@@ -3,12 +3,12 @@ import sharedStyles from '../../shared/shared.module.css';
 import styles from './Home.module.css';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import profile from '../../assets/profile.jpeg';
+import resume from '../../assets/resume.pdf';
 
 export default function Home() {
   return (
     <div>
       <div className={sharedStyles.header}>
-        {/* TODO: Replace this div with an actual profile image */}
         <div className={styles.profileAndButton}>
           <div className={styles.imageAndText}>
             <img
@@ -21,11 +21,14 @@ export default function Home() {
               <span className={styles.subtitle}>Front-End Web Developer</span>
             </div>
           </div>
-          {/* TODO: Implement download resume */}
-          <button className={styles.button}>
+          <a
+            className={styles.button}
+            href={resume}
+            download="adam-parks-resume"
+          >
             <FontAwesomeIcon className={sharedStyles.icon} icon={faDownload} />
             &nbsp;&nbsp;Download Resume
-          </button>
+          </a>
         </div>
       </div>
       <div className={sharedStyles.page}>
