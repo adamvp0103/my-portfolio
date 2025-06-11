@@ -54,10 +54,10 @@ export default function Home() {
           <h2 className={sharedStyles.heading}>Education</h2>
           <p style={{ marginBottom: '1rem' }}>
             I earned my Bachelor of Science in computer science from Towson
-            University in May 2024. I made Dean's List the majority of my
-            semesters there, and received high-quality instruction on the
-            fundamentals of tech and how to think like a programmer. Here are
-            some (but not all) of the courses I have taken:
+            University in May 2024. I made Dean's List every semester, and
+            received high-quality instruction on the fundamentals of tech and
+            how to think like a programmer. Here are some (but not all) of the
+            courses I have taken:
           </p>
           <div className={styles.list}>
             <ul className={sharedStyles.list}>
